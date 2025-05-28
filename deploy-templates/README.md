@@ -1,10 +1,10 @@
-# flask-expose
+# backend-expose
 
 ![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.1.0](https://img.shields.io/badge/AppVersion-0.1.0-informational?style=flat-square)
 
 A Helm chart for Kubernetes
 
-**Homepage:** <https://github.com/KubeRocketCI/template-flask-expose.git>
+**Homepage:** <https://github.com/KubeRocketCI/template-backend-expose.git>
 
 ## Maintainers
 
@@ -14,7 +14,7 @@ A Helm chart for Kubernetes
 
 ## Source Code
 
-* <https://github.com/KubeRocketCI/template-flask-expose.git>
+* <https://github.com/KubeRocketCI/template-backend-expose.git>
 
 ## Values
 
@@ -28,7 +28,7 @@ A Helm chart for Kubernetes
 | framework | string | `"python"` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"flask-expose"` |  |
+| image.repository | string | `"backend-expose"` |  |
 | image.tag | string | `""` | Overrides the image tag whose default is the chart appVersion. |
 | imagePullSecrets[0].name | string | `"regcred"` |  |
 | livenessProbe.tcpSocket.port | string | `"http"` |  |
